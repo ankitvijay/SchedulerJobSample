@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchedulerJobSample", "SchedulerJobSample\SchedulerJobSample.csproj", "{0CC676C0-B298-47B4-9D08-435909F7F32F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{A90AACC8-AB0E-49D1-89B9-55C85E41211E}"
 ProjectSection(SolutionItems) = preProject
 	README.md = README.md
 	.gitignore = .gitignore
 EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchedulerJobSample.Worker", "SchedulerJobSample.Worker\SchedulerJobSample.Worker.csproj", "{B064010C-948A-4B82-ADE7-C7A89DEFB4AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0CC676C0-B298-47B4-9D08-435909F7F32F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0CC676C0-B298-47B4-9D08-435909F7F32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0CC676C0-B298-47B4-9D08-435909F7F32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0CC676C0-B298-47B4-9D08-435909F7F32F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B064010C-948A-4B82-ADE7-C7A89DEFB4AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B064010C-948A-4B82-ADE7-C7A89DEFB4AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B064010C-948A-4B82-ADE7-C7A89DEFB4AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B064010C-948A-4B82-ADE7-C7A89DEFB4AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
